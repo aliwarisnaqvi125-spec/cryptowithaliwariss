@@ -1,0 +1,58 @@
+.tickerWrapper {
+    background: #040d1a;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.tickerContent {
+    display: flex;
+    white-space: nowrap;
+    animation: ticker 30s linear infinite;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 2rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.symbol {
+    color: var(--text-muted);
+}
+
+.price {
+    color: white;
+}
+
+.change {
+    display: flex;
+    align-items: center;
+}
+
+.positive {
+    color: var(--success);
+}
+
+.negative {
+    color: var(--danger);
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.tickerContent:hover {
+    animation-play-state: paused;
+}
