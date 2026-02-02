@@ -87,6 +87,86 @@ const POSTS_CONTENT: Record<string, PostContent> = {
                 <p>While volatility remains a constant companion, the structural fundamentals of Bitcoin suggest that the road to $150,000 is not just a dream, but a mathematical trajectory based on current adoption rates.</p>
             </>
         )
+    },
+    "4": {
+        title: "Ethereum 2.0: The Future of Smart Contracts",
+        date: "Feb 20, 2024",
+        image: "https://images.unsplash.com/photo-1622790698141-94e30457ef12?auto=format&fit=crop&q=80&w=1200",
+        body: (
+            <>
+                <p>Ethereum 2.0, also known as Serenity, represents a multi-year upgrade to the Ethereum network designed to improve its scalability, security, and sustainability.</p>
+                <h2>The Merge and Beyond</h2>
+                <p>The transition from proof-of-work to proof-of-stake was just the beginning. The roadmap now focuses on "The Surge" and "The Scourge," which aim to bring massive throughput improvements through sharding and data availability sampling.</p>
+                <h2>The Role of Layer 2</h2>
+                <p>Rollups like Optimism and Arbitrum are becoming the primary environment for user activity, while the Ethereum mainnet serves as a secure settlement layer. This "Rollup-centric roadmap" is key to serving millions of users.</p>
+                <ul>
+                    <li><strong>Energy Efficiency:</strong> 99% reduction in power consumption post-merge.</li>
+                    <li><strong>Staking Rewards:</strong> Secure the network while earning yield on your ETH.</li>
+                    <li><strong>Deflationary Burn:</strong> EIP-1559 continues to burn base fees, reducing supply during high activity.</li>
+                </ul>
+                <p>As Ethereum evolves, it solidifies its position as the global settlement layer for decentralized finance and digital ownership.</p>
+            </>
+        )
+    },
+    "5": {
+        title: "The Rise of DeFi: Decentralized Finance in 2024",
+        date: "Feb 25, 2024",
+        image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1200",
+        body: (
+            <>
+                <p>Decentralized Finance (DeFi) is reimagining the global financial system by removing intermediaries like banks and brokers and replacing them with code.</p>
+                <h2>The Liquidity Reformation</h2>
+                <p>In 2024, we are seeing the emergence of "Liquidity Layer" protocols. These systems allow for more efficient capital allocation and deeper liquidity for traders without centralized controllers.</p>
+                <h2>Real World Assets (RWA)</h2>
+                <p>The tokenization of real-world assets like treasury bills, real estate, and private credit is bringing trillions in value from traditional finance onto the blockchain.</p>
+                <ul>
+                    <li><strong>Transparency:</strong> All transactions and collateral are verifiable on-chain 24/7.</li>
+                    <li><strong>Accessibility:</strong> Anyone with an internet connection can access global financial services.</li>
+                    <li><strong>Composability:</strong> DeFi "money legos" allow different protocols to work together seamlessly.</li>
+                </ul>
+                <p>The future of finance is open, transparent, and built on blockchain technology.</p>
+            </>
+        )
+    },
+    "6": {
+        title: "Solana vs. Ethereum: Which Layer 1 Will Win?",
+        date: "Mar 05, 2024",
+        image: "https://images.unsplash.com/photo-1641933002719-4c878c83f48e?auto=format&fit=crop&q=80&w=1200",
+        body: (
+            <>
+                <p>The competition between Layer 1 blockchains is heating up, with Solana emerging as a formidable challenger to Ethereum's dominance.</p>
+                <h2>Performance vs. Decentralization</h2>
+                <p>Solana prioritizes extreme speed and low costs, Capable of thousands of transactions per second. Ethereum focuses on maximum security and decentralization, relying on Layer 2 scaling solutions.</p>
+                <h2>The Developer Ecosystem</h2>
+                <p>While Ethereum has the largest number of developers, Solana has seen rapid growth in its community, particularly in the retail and NFT sectors due to its superior user experience.</p>
+                <ul>
+                    <li><strong>Solana:</strong> Monolithic design, sub-cent fees, and high-performance rust-based execution.</li>
+                    <li><strong>Ethereum:</strong> Modular design, multi-layer scaling, and the strongest network effects in crypto.</li>
+                </ul>
+                <p>Rather than a single winner, the future likely holds a multi-chain world where different chains serve specific use cases.</p>
+            </>
+        )
+    },
+    "7": {
+        title: "Crypto Regulations: Global Trends for 2024",
+        date: "Mar 12, 2024",
+        image: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&q=80&w=1200",
+        body: (
+            <>
+                <p>As cryptocurrency adoption grows, regulators around the world are racing to create frameworks for digital assets.</p>
+                <h2>MiCA in Europe</h2>
+                <p>The Markets in Crypto-Assets (MiCA) regulation in Europe provides a comprehensive framework that offers clarity for businesses and protection for consumers, setting a global standard.</p>
+                <h2>United States Landscape</h2>
+                <p>The U.S. remains a complex environment with ongoing legal battles between the SEC/CFTC and major crypto firms. However, the approval of ETFs suggests a slow move toward integration.</p>
+                <h2>What this means for investors:</h2>
+                <ul>
+                    <li><strong>Institutional Confidence:</strong> Clearer rules encourage more big players to enter the space.</li>
+                    <li><strong>Consumer Safety:</strong> Better protections against scams and exchange failures.</li>
+                    <li><strong>Compliance Burden:</strong> Increased costs for projects to operate legally in major jurisdictions.</li>
+                </ul>
+                <p>Regulation is often seen as a double-edged sword, but long-term, it provides the foundation for massive global adoption.</p>
+            </>
+        )
     }
 };
 

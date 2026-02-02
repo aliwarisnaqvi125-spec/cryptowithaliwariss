@@ -4,8 +4,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./Navbar.module.css";
-import { Gem, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -24,7 +25,13 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <Gem className="size-6" color="#00D5FA" />
+          <Image
+            src="/favicon.png"
+            alt="CryptoWithAliwaris Logo"
+            width={32}
+            height={32}
+            style={{ borderRadius: '50%' }}
+          />
           <span>CryptoWithAliwaris</span>
         </Link>
 

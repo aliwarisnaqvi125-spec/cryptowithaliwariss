@@ -38,8 +38,8 @@ export default function Hero() {
                     <button className={styles.primaryBtn} onClick={() => window.location.href = '/market'}>
                         Start Trade <ArrowRight size={20} style={{ marginLeft: "0.5rem" }} />
                     </button>
-                    <button className={styles.secondaryBtn} onClick={() => window.location.href = '/about'}>
-                        Learn More
+                    <button className={styles.secondaryBtn} onClick={() => window.location.href = '/earn'}>
+                        Free Earn
                     </button>
                 </motion.div>
             </div>
