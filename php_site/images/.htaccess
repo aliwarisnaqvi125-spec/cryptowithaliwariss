@@ -1,0 +1,14 @@
+# Disable directory browsing
+Options -Indexes
+
+# Set default index file
+DirectoryIndex index.html
+
+# Error documents
+ErrorDocument 404 /404.html
+
+# Allow access to all files
+<FilesMatch ".*">
+    Order allow,deny
+    Allow from all
+</FilesMatch>

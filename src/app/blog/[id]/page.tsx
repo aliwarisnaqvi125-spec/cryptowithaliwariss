@@ -1,7 +1,6 @@
+// This is a server component to support static export
+export const dynamic = 'force-static';
 
-"use client";
-
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import styles from "./page.module.css";
 import { ArrowLeft } from "lucide-react";
@@ -170,9 +169,15 @@ const POSTS_CONTENT: Record<string, PostContent> = {
     }
 };
 
-export default function BlogPostPage() {
-    const { id } = useParams();
-    const post = POSTS_CONTENT[id as string];
+export async function generateStaticParams() {
+    return Object.keys(POSTS_CONTENT).map((id) => ({
+        id: id,
+    }));
+}
+
+export default async function BlogPostPage({ params }: { params: Promise<{ id: string }> }) {
+    const { id } = await params;
+    const post = POSTS_CONTENT[id];
 
     if (!post) {
         return (
